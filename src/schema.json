@@ -1,0 +1,74 @@
+{
+  "general": {
+    "features": {
+      "case_management": {
+        "name": "case management",
+        "is_active": true
+      },
+      "notifications": {
+        "name": "notifications",
+        "is_active": true
+      },
+      "map_timeline": {
+        "name": "map timeline",
+        "is_active": true
+      },
+      "mass_communications": {
+        "name": "mass communications",
+        "is_active": true
+      },
+      "views_&_briefings": {
+        "name": "views & briefings",
+        "is_active": true
+      },
+      "traffic_cameras": {
+        "name": "traffic cameras",
+        "is_active": true
+      }
+    }
+  },
+  "settings": {
+    "features": {
+      "audit_log": {
+        "name": "audit log",
+        "is_active": true
+      },
+      "users": {
+        "name": "users",
+        "is_active": true,
+        "features": {
+          "users_add": {
+            "name": "users add",
+            "is_active": true
+          },
+          "users_delete": {
+            "name": "users delete",
+            "is_active": false
+          },
+          "users_edit": {
+            "name": "users edit",
+            "is_active": true
+          },
+          "max_users": {
+            "name": "max users",
+            "is_active": true,
+            "opt_input": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+          }
+        }
+      }
+    }
+  },
+  "alert": {
+    "features": {
+      "alert_manager": {
+        "name": "alert manager",
+        "is_active": true
+      },
+      "alert_rules": {
+        "name": "alert rules",
+        "is_active": true,
+        "opt_input": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+      }
+    }
+  }
+}
